@@ -1,45 +1,58 @@
 # Big Games Shop Product Redirect
 
-A WooCommerce extension that allows setting individual product redirect URLs from an external product feed API (e.g. from big-games.shop). Includes an admin dropdown in both product edit and product listing screens.
+A WooCommerce extension that allows you to assign redirect URLs to individual products, pulled directly from an external API such as `https://big-games.shop`.  
+
+Includes a smart dropdown UI in the product edit screen **and** inline in the admin product list (with AJAX saving).
 
 ---
 
 ## 🧩 Features
 
-- ✅ Adds redirect dropdown to each WooCommerce product (from remote API)
-- ✅ Dropdown also appears inline in the product listing table (with AJAX save)
-- ✅ Automatically redirects product pages if a redirect URL is set
-- ✅ Admin settings page under WooCommerce:
-  - API URL input
-  - Transient (cache) time setting
-  - Flush cache button
-- ✅ GitHub-based plugin updates via [Plugin Update Checker](https://github.com/YahnisElsts/plugin-update-checker)
+- ✅ Redirect dropdown in each WooCommerce product edit screen (from external API)
+- ✅ AJAX-powered dropdown in the product list table (for quick inline updates)
+- ✅ Automatic frontend redirection when a URL is set
+- ✅ WooCommerce submenu with:
+  - Editable API URL field
+  - Cache duration setting (in hours)
+  - Button to flush the cached API data
+- ✅ GitHub-based plugin updates using [Plugin Update Checker](https://github.com/YahnisElsts/plugin-update-checker)
 
 ---
 
-## ⚙️ Settings Page
+## ⚙️ Admin Settings Page
 
-Go to:  
+Navigate to:  
 `WooCommerce → Redirect Settings`
 
 There you can:
-- Set the API endpoint URL
-- Set cache expiration (in hours)
-- Flush cached data
+
+- Set the remote API endpoint
+- Define how long data should be cached (in hours)
+- Clear the transient cache immediately
 
 ---
 
 ## 🔄 Git-Based Auto Updates
 
-To support plugin auto-updates:
-- This plugin includes [Plugin Update Checker](https://github.com/YahnisElsts/plugin-update-checker)
-- When installed from GitHub and a new version is pushed and tagged (e.g. `v1.1.3`), WordPress will detect the update automatically.
+This plugin uses [Plugin Update Checker](https://github.com/YahnisElsts/plugin-update-checker) for automatic updates.
+
+Once your plugin is installed from a public GitHub repository:
+
+- Push a new **tagged** release (e.g. `v1.1.3`)
+- WordPress will detect and prompt for an update automatically 🎉
 
 ---
 
-## 🧑‍💻 Developer Notes
+## 📦 Installation
 
-### Installation via Composer
+### 🔌 Standard WordPress Installation
+
+1. Download the plugin ZIP (with `vendor/` folder included)
+2. In your WordPress dashboard, go to:
+   `Plugins → Add New → Upload Plugin`
+3. Upload the `.zip` file and activate the plugin
+
+### ⚙️ Composer Installation (for developers)
 
 ```bash
 composer require dompl/petshop-product-redirect

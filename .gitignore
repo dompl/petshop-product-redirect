@@ -3,7 +3,7 @@
 Thumbs.db
 .vscode/
 .idea/
-
+plugin_release_instructions.txt
 # Ignore Composer & Vendor
 # /vendor/
 /composer.lock

@@ -15,7 +15,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/YahnisElsts/plugin-update-checker"
+            "url": "https://github.com/dompl/petshop-product-redirect"
         }
     ]
 }
