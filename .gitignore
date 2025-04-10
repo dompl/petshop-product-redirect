@@ -5,7 +5,7 @@ Thumbs.db
 .idea/
 
 # Ignore Composer & Vendor
-/vendor/
+# /vendor/
 /composer.lock
 
 # Ignore WordPress-specific files that shouldn't be in plugin repo
