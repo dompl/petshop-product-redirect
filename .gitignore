@@ -1,0 +1,25 @@
+# Ignore OS & IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore Composer & Vendor
+/vendor/
+/composer.lock
+
+# Ignore WordPress-specific files that shouldn't be in plugin repo
+*.log
+*.sql
+*.zip
+
+# Node modules (if ever used)
+node_modules/
+
+# Ignore uploads or personal config if any
+*.env
+.env.*
+*.local
+
+# Mac system files
+__MACOSX/

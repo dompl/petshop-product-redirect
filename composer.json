@@ -1,0 +1,21 @@
+{
+    "name": "dompl/petshop-product-redirect",
+    "description": "Big Games Shop Product Redirect plugin.",
+    "type": "wordpress-plugin",
+    "require": {
+        "yahnis-elsts/plugin-update-checker": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dompl\\PetshopProductRedirect\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/YahnisElsts/plugin-update-checker"
+        }
+    ]
+}
