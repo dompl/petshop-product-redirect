@@ -1,0 +1,59 @@
+{
+    "packages": [
+        {
+            "name": "yahnis-elsts/plugin-update-checker",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/YahnisElsts/plugin-update-checker.git",
+                "reference": "73e6281e434bceffa7884568611804f8c38e27b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/YahnisElsts/plugin-update-checker/zipball/73e6281e434bceffa7884568611804f8c38e27b5",
+                "reference": "73e6281e434bceffa7884568611804f8c38e27b5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.6.20"
+            },
+            "time": "2024-12-09T15:47:56+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "load-v5p5.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yahnis Elsts",
+                    "email": "whiteshadow@w-shadow.com",
+                    "homepage": "https://w-shadow.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A custom update checker for WordPress plugins and themes. Useful if you can't host your plugin in the official WP repository but still want it to support automatic updates.",
+            "homepage": "https://github.com/YahnisElsts/plugin-update-checker/",
+            "keywords": [
+                "automatic updates",
+                "plugin updates",
+                "theme updates",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/YahnisElsts/plugin-update-checker/tree/master",
+                "issues": "https://github.com/YahnisElsts/plugin-update-checker/issues"
+            },
+            "install-path": "../yahnis-elsts/plugin-update-checker"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
