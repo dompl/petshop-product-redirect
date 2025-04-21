@@ -38,7 +38,7 @@ This plugin uses [Plugin Update Checker](https://github.com/YahnisElsts/plugin-u
 
 Once your plugin is installed from a public GitHub repository:
 
-- Push a new **tagged** release (e.g. `v1.1.3`)
+- Push a new **tagged** release (e.g. `v1.1.6`)
 - WordPress will detect and prompt for an update automatically 🎉
 
 ---
